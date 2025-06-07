@@ -1,0 +1,12 @@
+@font-face{
+                font-family:"Tipografiadelmetro";
+                src: url(./METRO-DF.TTF) format('truetype');
+}
+.rectangulo {
+      width: 200px; /* Ancho del rectángulo */
+      height: 100px; /* Altura del rectángulo */
+      background-color: #4CAF50; /* Color de fondo */
+      border: 2px solid #000; /* Borde del rectángulo */
+      border-radius: 10px; /* Bordes redondeados opcionales */
+      text-align: center;
+    }
