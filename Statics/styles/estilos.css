@@ -1,6 +1,6 @@
 @font-face{
                 font-family:"Tipografiadelmetro";
-                src: url(./METRO-DF.TTF) format('truetype');
+                src: url(../Statics/fonts/METRO-DF.TTF) format('truetype');
 }
 .rectangulo {
       font-family: "Tipografiadelmetro",sans-serif;
@@ -36,3 +36,7 @@
   color: rgba(95, 11, 11, 0.767);
   background-color: rgba(231, 49, 49, 0.842);
 }   
+#aby{
+  color:#1c3b32;
+  background-color: #349477;
+}
