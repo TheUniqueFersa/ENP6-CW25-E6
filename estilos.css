@@ -3,12 +3,16 @@
                 src: url(./METRO-DF.TTF) format('truetype');
 }
 .rectangulo {
-      width: 200px; /* Ancho del rectángulo */
-      height: 100px; /* Altura del rectángulo */
-      background-color: #4CAF50; /* Color de fondo */
-      border: 2px solid #000; /* Borde del rectángulo */
+      font-family: "Tipografiadelmetro",sans-serif;
+      width: 400px; /* Ancho del rectángulo */
+      height: 130px; /* Altura del rectángulo */
+      background-color: #000000; /* Color de fondo */
+      color: white;
+      border: 2px solid #000000; /* Borde del rectángulo */
       border-radius: 10px; /* Bordes redondeados opcionales */
       text-align: center;
+      margin:0 auto;
+      font-size: large;
 }
 .parrafo-bonito {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,4 +31,8 @@
 .parrafo-bonito:hover {
   transform: scale(1.03);
   box-shadow: 0 6px 20px rgba(93, 58, 155, 0.3);
-}    
+}
+#luis{
+  color: rgba(95, 11, 11, 0.767);
+  background-color: rgba(231, 49, 49, 0.842);
+}   
